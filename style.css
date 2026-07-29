@@ -1,0 +1,114 @@
+{
+   margin: 0;
+   padding: 0;
+}
+
+Body{
+    background-color: #bcc0c5;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.container{
+    max-width: 1000px;
+    background-color: #a4ecd0;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+  .para h1{  
+  text-align:center;
+  color: rgb(135, 37, 201);
+
+}
+
+
+
+img{
+  height:300px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+#nav-menu{
+  width: 800px;
+  height: 80px;
+  background-color: orange;
+  margin: 0 auto;
+
+}
+
+#nav-menu ul{
+
+
+}
+#nav-menu ul li {
+     list-style-type:none;	
+		margin:20px;
+		float:left;
+}
+
+#nav-menu ul li a{
+    text-decoration:none;
+	  font-size:25px;
+	  color:white;
+	  cursor:help;
+	 
+	 
+}
+#nav-menu ul li a:hover{
+   text-decoration:underline;
+
+}
+.hero p{
+    font-size: 20px;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #5a2ecc;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#contact{
+    background: white;
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+#contact h2{color: #5a2ecc; margin-bottom: 10px;}
+#contact input, #contact textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact button{
+    background: #5a2ecc;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#contact button:hover{background: #3d1a99;}
